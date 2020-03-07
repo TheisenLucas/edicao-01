@@ -21,7 +21,7 @@
 
 1. **Como serão as exercícios?**
 
-   <p>Parte em aula, parte em casa. A parte dos exercícios destinada a fazer em casa não deverá seguir um cronograma rígido de entrega, devendo o participante gerenciar o seu tempo da forma que julgar pertinente. Todos exercícios terão como data limite de entrega, a próxima quinta-feira até às 23h59. O participante ainda poderá submeter os trabalhos após esse período, mas não é garantido que será avaliado</p>
+   <p>Parte em aula, parte em casa. A parte dos exercícios destinada a fazer em casa não deverá seguir um cronograma rígido de entrega, devendo o participante gerenciar o seu tempo da forma que julgar pertinente. Todos exercícios terão como data limite de entrega, a próxima quinta-feira até às 23h59. O participante ainda poderá submeter os trabalhos após esse período, mas não é garantido que será avaliado.</p>
 
 1. **Como serão as avaliações?**
 
@@ -29,7 +29,7 @@
 
 1. **O conteúdo das aulas ficará disponível?**
 
-   <p>Sim, durante todo o treinamento. Porém, o conteúdo de cada aula só ficará disponível após o dia da respectiva aula, ou seja, no primeiro dia apenas a aula 01 estará disponível</p>
+   <p>Sim, durante todo o treinamento. Porém, o conteúdo de cada aula só ficará disponível após o dia da respectiva aula, ou seja, no primeiro dia apenas a aula 01 estará disponível.</p>
 
 1. **Como devo submeter os exercícios?**
    <p>Usaremos o GitHub durante todo o treinamento. Se você não possui uma conta ainda, crie agora mesmo. O candidato deverá criar um repositório com o nome `cwi-reset-2020-01`, pessoal e público (criaremos juntos na primeira aula).</p>
