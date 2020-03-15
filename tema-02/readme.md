@@ -40,8 +40,9 @@
 
 1. Usuário pode criar quantos personagens quiser, ele que decide quantos combatentes vão existir
 1. Usuário que define o roteiro do combate:
-   1. Poderá escolher entre "atacar" ou "encerrar"
-   1. Se escolher atacar, poderá escolher qual o atacante, qual habilidade e qual alvo (ou quais alvos, se for uma habilidade em área)
+   1. Poderá escolher entre "equipar", "atacar" ou "encerrar"
+   1. Se escolher "equipar", poderá escolher um homem de armas e a arma a ser equipada
+   1. Se escolher "atacar", poderá escolher qual o atacante, qual habilidade (se for arcano ou sacerdote) e qual alvo (ou quais alvos, se for uma habilidade em área)
    1. Enquanto o usuário selecionar a opção "atacar", _the show must go on_.
 1. Só deverá listar como opções de personagem atacante, aqueles que ainda estiverem vivos
 1. Só deverá listar como opções de personagem alvo, aqueles que ainda estiverem vivos
