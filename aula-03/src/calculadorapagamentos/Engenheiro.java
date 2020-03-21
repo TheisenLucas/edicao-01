@@ -1,4 +1,4 @@
-package domain.empregos;
+package calculadorapagamentos;
 
 public class Engenheiro extends Funcionario {
 

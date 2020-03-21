@@ -1,8 +1,8 @@
+package calculadorapagamentos;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import domain.empregos.Funcionario;
-import domain.empregos.Engenheiro;
 
 public class CalculadoraFolhaMensal {
 
@@ -15,7 +15,7 @@ public class CalculadoraFolhaMensal {
 			opcao = lerInteiro();
 			if (opcao == 1) {
 				// Cadastra Engenheiro
-				Engenheiro eng = new ();
+//				Engenheiro eng = new ();
 			} else if (opcao == 2) {
 				// Cadastra Programador
 			} else if (opcao == 3) {

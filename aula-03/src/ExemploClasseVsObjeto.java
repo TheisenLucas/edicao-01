@@ -1,3 +1,4 @@
+import calculadorapagamentos.Pessoa;
 
 public class ExemploClasseVsObjeto {
 

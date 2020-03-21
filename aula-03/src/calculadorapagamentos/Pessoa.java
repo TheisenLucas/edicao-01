@@ -1,3 +1,5 @@
+package calculadorapagamentos;
+
 public class Pessoa {
 
 	private static int populacao = 0;
