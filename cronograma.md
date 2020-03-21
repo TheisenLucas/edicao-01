@@ -41,6 +41,17 @@
 ## Manhã
 
 - Revisão de dúvidas
+- Criar  e importar projeto
+- Estrutura de pastas e packages
+- Debugging
+- Escopo de classe vs escopo de instância
+- Uso de static e final
+- Tipo valor e tipo referência
+- Exceptions
+
+## Tarde
+
+- Aplicação desktop e web
 - Arquitetura cliente-servidor
 - HTTP
 - REST
@@ -50,8 +61,12 @@
 - Projeto: Tinder Evolution
 - Choro
 
-## Tarde
 
+# Aula 04 - 28/03
+
+## Manhã
+
+- Revisão de dúvidas
 - Frameworks
 - Spring e Spring Boot
 - Hello World Spring Web
@@ -59,21 +74,10 @@
 - Controllers
 - Services
 - Repositories
-- Projeto
-
-# Aula 04 - 28/03
-
-## Manhã
-
-- Revisão de dúvidas
-- Banco de dados
-- Exercícios
+- Projeto...
 
 ## Tarde
 
-- Spring Data
-- Entities
-- Relacionamentos
-- Repository
-- Projeto
-- Encerramento
+- Projeto...
+- Próximos passos
+- Agradecimentos
