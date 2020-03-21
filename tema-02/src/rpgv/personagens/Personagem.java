@@ -1,7 +1,6 @@
-package rpg.personagens;
+package rpgv.personagens;
 
-import rpg.habilidades.Habilidade;
-import rpg.registro.RegistroCombate;
+import rpgv.habilidades.Habilidade;
 
 public abstract class Personagem {
 
@@ -13,14 +12,11 @@ public abstract class Personagem {
 
     private double defesa;
 
-    private RegistroCombate registro;
-
     public Personagem(final String nome, final double vida, final double ataque, final double defesa) {
         this.nome = nome;
         this.vida = vida;
         this.ataque = ataque;
         this.defesa = defesa;
-        this.registro = new RegistroCombate();
     }
 
     private double calcularDano(double defesa, double poder) {
@@ -31,9 +27,9 @@ public abstract class Personagem {
         String mensagem = this.nome + " atacou " + alvo.getNome() + " com " + habilidade + " causando " + dano + " de dano";
 
         if (alvo.estaVivo()) {
-            registro.registrar(mensagem);
+            System.out.println(mensagem);
         } else {
-            registro.registrar(mensagem + " e morreu");
+            System.out.println(mensagem + " e morreu");
         }
     }
 
@@ -43,8 +39,6 @@ public abstract class Personagem {
 
             alvo.vida -= dano;
             registrar(alvo, habilidade.getNome(), dano);
-        } else {
-            registro.registrar(nome + " tentou atacar, mas já estava falecido.");
         }
         return estaVivo();
     }

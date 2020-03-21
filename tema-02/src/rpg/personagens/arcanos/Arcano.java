@@ -1,6 +1,9 @@
 package rpg.personagens.arcanos;
 
+import java.util.List;
+
 import rpg.habilidades.Magia;
+import rpg.habilidades.TipoMagia;
 import rpg.personagens.Personagem;
 
 public abstract class Arcano extends Personagem {
@@ -12,14 +15,32 @@ public abstract class Arcano extends Personagem {
         this.mana = mana;
     }
 
-    public boolean atacar(Personagem alvo, Magia magia) {
-        boolean sucesso = this.mana >= magia.getCustoMana() && super.atacar(alvo, magia);
+    public boolean atacar(List<Personagem> alvos, Magia magia) {
 
-        if (sucesso) {
+        if (magia.getTipoMagia() == TipoMagia.EM_AREA) {
+            for (Personagem alvo : alvos) {
+                this.atacarSemGastarMana(alvo, magia);
+            }
+
             this.mana -= magia.getCustoMana();
         }
 
-        return sucesso;
+        return true;
+    }
+
+    public boolean atacar(Personagem alvo, Magia magia) {
+
+        atacarSemGastarMana(alvo, magia);
+
+        this.mana -= magia.getCustoMana();
+
+        return true;
+    }
+
+    private void atacarSemGastarMana(Personagem alvo, Magia magia) {
+        if (this.mana >= magia.getCustoMana()) {
+            super.atacar(alvo, magia);
+        }
     }
 
     public int getMana() {

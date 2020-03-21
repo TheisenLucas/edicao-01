@@ -1,12 +1,12 @@
-package rpg.habilidades;
+package rpgv.habilidades;
 
-public abstract class Habilidade {
+public class Habilidade {
 
     private String nome;
 
     private double poder;
 
-    protected Habilidade(String nome, double poder) {
+    public Habilidade(final String nome, final double poder) {
         this.nome = nome;
         this.poder = poder;
     }
@@ -19,9 +19,4 @@ public abstract class Habilidade {
         return nome;
     }
 
-    @Override
-    public String toString() {
-        return "Nome: " + nome +
-            " | Poder:" + poder;
-    }
 }
