@@ -1,5 +1,3 @@
-package domain;
-
 public class Pessoa {
 
 	private static int populacao = 0;
